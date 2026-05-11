@@ -1,1 +1,32 @@
-
+| Command                 | Command's Usage                                                         |
+|----------------------   |-------------------------------------------------------------------------|
+| ls                      | Produces a list of directories and files                                |
+| ls -l                   | Generates a detailed listing of the files in a directory                |
+| ls -la                  | Lists all files (including hidden) within the current working directory |
+| cd test_dir             | Changes the working directory to test_dir                               |
+| cd..                    | Changes the current working directory to the parent directory           |
+| cd-                     | Changes to the previous working directory                               |
+| cd ~                    | Changes the current working directory to the user's home directory      |
+| pwd                     | Displays the path of the current working directory                      |
+| mkdir test_dir          | Creates the directory test_dir                                          |
+| touch example.txt       | Create an empty file with the name example.txt                          |
+| mv old new              | Renames or moves files and/or directories                               |
+| cat file.txt            | Outputs the contents of file.txt                                        |
+| cat -n file.txt         | Outputs the contents of file.txt with line numbers                      |
+| head file.txt           | Outputs the first 10 lines of file.txt                                  |
+| head -5 file.txt        | Outputs the first 5 lines of file.txt                                   |
+| tail file.txt           | Outputs the last 10 lines of file.txt                                   |
+| tail -5 file.txt        | Outputs the last 5 lines of file.txt                                    |
+| tail -f file.txt        | Monitors the live updating of file.txt                                  |
+| grep "text" file.txt    | Searches for the existence of the word 'text' within file.txt           |
+| grep -i                 | Case insensitive search                                                 |
+| grep -n                 | Displays line numbers of matching item(s)                               |
+| grep -c                 | Displays the count of each line that matches                            |
+| echo "string"           | Writes the string to the terminal                                       |
+| echo $VAR               | Displays the current value of the environment variable $VAR             |
+| echo "string" >file     | Writes a string to the file                                             |
+| echo "string" >>file    | Appends a string to the end of a file                                   |
+| zip -r file.zip folder  | Compresses folder to a ZIP file                                         |
+| unzip file.zip          | Extracts the contents of the zip file                                   |
+| unzip file.zip -d folder| Extract the contents of the zip file to the specified folder            |
+| wget URL                | Downloads a file from the specified URL                                 |
