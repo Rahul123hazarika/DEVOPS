@@ -1,1 +1,40 @@
+objects:
 
+List
+Dictionairy
+set/Tuple
+
+conditional operators:
+
+==equal to 
+!= not equal to 
+> greater than
+< less than 
+>=greater than equal to 
+<=less than or equal to
+
+\n -newline
+
+common python modules:
+OS - operating system
+sys - system
+re- regular expression
+math - mathematical functions
+random - random number generator
+datetime- date and time
+json- javascript object notation
+
+Different File modes:
+
+r-read
+w-write
+a-append 
+r+ -read and write 
+w+ - write and read
+a+ - append and read
+wb- write binary
+ab- append binary
+
+STDIN and STDOUT:
+STDIN: Standard input 
+STDOUT : standard output
