@@ -10,9 +10,8 @@ def name():
   age=request.values.get('age')
   age=int(age)
   if age>=18:
-    return "welcome to the site' +name + '!'
+    return "welcome to the site" +name + "!"
   else:
     return "sorry , you are below 18"
-if __name__="__main__":
+if __name__=="__main__":
    app.run(debug=True)
-
